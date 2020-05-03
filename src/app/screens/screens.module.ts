@@ -8,10 +8,12 @@ import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatSelectModule} from "@angular/material/select";
 import {MatInputModule} from "@angular/material/input";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import {MatTabGroup, MatTabsModule} from "@angular/material/tabs";
+import { ScreenAboutComponent } from './screen-about/screen-about.component';
 
 
 @NgModule({
-  declarations: [HomeScreenComponent],
+  declarations: [HomeScreenComponent, ScreenAboutComponent],
   imports: [
     CommonModule,
     ScreensRoutingModule,
@@ -19,7 +21,8 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
     MatFormFieldModule,
     MatSelectModule,
     MatInputModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatTabsModule
   ]
 })
 export class ScreensModule { }
