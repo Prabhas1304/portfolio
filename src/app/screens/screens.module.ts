@@ -11,6 +11,8 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {MatTabGroup, MatTabsModule} from "@angular/material/tabs";
 import { ScreenAboutComponent } from './screen-about/screen-about.component';
 import {MatCardModule} from "@angular/material/card";
+import {RatingModule} from "ng-starrating";
+import {NgxStarRatingModule} from "ngx-star-rating";
 
 
 @NgModule({
@@ -24,7 +26,9 @@ import {MatCardModule} from "@angular/material/card";
     MatInputModule,
     BrowserAnimationsModule,
     MatTabsModule,
-    MatCardModule
+    MatCardModule,
+    RatingModule,
+    NgxStarRatingModule
   ]
 })
 export class ScreensModule { }
