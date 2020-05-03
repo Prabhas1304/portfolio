@@ -10,6 +10,7 @@ import {MatInputModule} from "@angular/material/input";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {MatTabGroup, MatTabsModule} from "@angular/material/tabs";
 import { ScreenAboutComponent } from './screen-about/screen-about.component';
+import {MatCardModule} from "@angular/material/card";
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { ScreenAboutComponent } from './screen-about/screen-about.component';
     MatSelectModule,
     MatInputModule,
     BrowserAnimationsModule,
-    MatTabsModule
+    MatTabsModule,
+    MatCardModule
   ]
 })
 export class ScreensModule { }
